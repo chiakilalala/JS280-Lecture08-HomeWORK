@@ -1,16 +1,25 @@
+
+
+@import 'https://fonts.googleapis.com/css?family=Baloo+Tamma|Open+Sans';
 body{
-    background: #0d1521;
-    font-family: tahoma;
-    color: #989898;
+    /*background: #0d1521;*/
+    background-image: url(/assets/logo.jpg);
+    background-repeat: no-repeat;
+    background-position: 90% 10%;
+    background-size: cover;
+    font-family: 'Baloo Tamma', cursive;
+    color: #065049;
+    text-decoration: none;
 }
 
 #todo-table{
-    position: relative;
-    width: 95%;
-    background: #090d13;
+   position: relative;
+    width: 65%;
+    background: rgba(96, 125, 139, 0.51);
     margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
+    border-radius: 15px;
 }
 
 #todo-table form:after{
@@ -23,23 +32,26 @@ body{
 input[type="text"]{
     width: 70%;
     padding: 20px;
-    background:#181c22;
+    background: #063e6b;
     border: 0;
     float: left;
+    border-radius: 20px;
     font-size: 20px;
-    color: #989898;
+    color: #fff;
 }
 
 button{
     padding: 20px;
-    width: 30%;
+    margin-left: 20px;
+    width: 20%;
     float: left;
-    background: #23282e;
+    background: #3e5568;
     border: 0;
     box-sizing: border-box;
     color: #fff;
     cursor: pointer;
     font-size: 20px;
+    border-radius: 20px;
 }
 
 ul{
@@ -64,8 +76,9 @@ li:hover{
 }
 
 h1{
-    background: url(/assets/logo.jpg) no-repeat center;
+    /*background: url(/assets/logo.jpg) no-repeat center;*/
     margin-bottom: 0;
     background-size: cover;
-    text-indent: -10000px;
+    text-align: center;
+    /*text-indent: -10000px;*/
 }
